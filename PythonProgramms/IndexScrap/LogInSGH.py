@@ -14,11 +14,11 @@ def LogInSGH():
 
     #providing the login
     login = driver.find_element_by_name('login')
-    login.send_keys('kj78081')
+    login.send_keys('')
 
     #providing the password
     password = driver.find_element_by_name('password')
-    password.send_keys('dAWbl2^2i6du8')
+    password.send_keys('')
 
     logbutton = driver.find_element_by_xpath('/html/body/div[1]/div/div[2]/div/form/button')
     logbutton.click()
